@@ -13,4 +13,4 @@ Development of a minimal dataset for antenatal care based on FHIR v4. Intended t
 
 ## Auto-build
 
-Our work-in-progress is visible as part of the FHIR Continuous Integration (CI) build service at https://build.fhir.org using this [webhook](https://github.com/FHIR/auto-ig-builder)
+Our work-in-progress is visible as part of the FHIR Continuous Integration (CI) build service at https://build.fhir.org using this [webhook](https://github.com/FHIR/auto-ig-builder).
