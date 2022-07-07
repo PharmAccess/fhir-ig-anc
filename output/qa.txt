@@ -1,0 +1,25 @@
+﻿pharmaccessanc : Validation Results
+=========================================
+
+err = 0, warn = 4, info = 0
+IG Publisher Version: 1.1.122
+Generated Thu Jul 07 12:18:59 CEST 2022. FHIR version 4.0.1 for fhir.example#0.1.0 (canonical = http://example.org)
+ Build Errors : 0 / 0 / 0
+ /Users/dkapitan/git/pharmaccess/pharmaccess-anc/fsh-generated/resources/ImplementationGuide-fhir.example : 0 / 1 / 1
+ /Users/dkapitan/git/pharmaccess/pharmaccess-anc/fsh-generated/resources/patient-PatientExample : 0 / 0 / 1
+ /Users/dkapitan/git/pharmaccess/pharmaccess-anc/fsh-generated/resources/structuredefinition-pharmaccess-anc-condition : 0 / 1 / 1
+ /Users/dkapitan/git/pharmaccess/pharmaccess-anc/fsh-generated/resources/structuredefinition-pharmaccess-anc-encounter : 0 / 1 / 1
+ /Users/dkapitan/git/pharmaccess/pharmaccess-anc/fsh-generated/resources/structuredefinition-pharmaccess-anc-episode-of-care : 0 / 1 / 1
+ /Users/dkapitan/git/pharmaccess/pharmaccess-anc/fsh-generated/resources/structuredefinition-pharmaccess-anc-patient : 0 / 0 / 1
+</table>
+== n/a ==
+== fsh-generated/resources/ImplementationGuide-fhir.example.json ==
+WARNING: ImplementationGuide/fhir.example: ImplementationGuide: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== fsh-generated/resources/Patient-PatientExample.json ==
+== fsh-generated/resources/StructureDefinition-pharmaccess-anc-condition.json ==
+WARNING: StructureDefinition.where(url = 'http://example.org/StructureDefinition/pharmaccess-anc-condition'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pharmaccess-anc-encounter.json ==
+WARNING: StructureDefinition.where(url = 'http://example.org/StructureDefinition/pharmaccess-anc-encounter'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pharmaccess-anc-episode-of-care.json ==
+WARNING: StructureDefinition.where(url = 'http://example.org/StructureDefinition/pharmaccess-anc-episode-of-care'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pharmaccess-anc-patient.json ==
